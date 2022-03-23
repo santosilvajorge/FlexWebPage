@@ -1,0 +1,132 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header-2ndline {
+    color: gray;
+    padding-top: 10px;
+
+}
+
+.header-3rdline {
+    display: inline-block;
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+    white-space: pre;
+    padding: 10px 0px 20px 0px;
+}
+
+#red {
+    color: red;
+    font-weight: 300;
+    
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size:small;
+    align-items: baseline;
+    margin-bottom: 10px;
+
+}
+
+.popular {
+    border: solid 2px rgba(250, 182, 193, 0.712);
+    padding: 0px;
+    margin: 10px 10px 10px 0px;
+    padding: 0px -5px;
+    width: 7%;
+    white-space: pre;
+}
+
+.nav-midle {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+}
+
+.filters {
+    border: solid 1px gray;
+    padding: 0px;
+    margin: 10px 0px 10px 10px;
+    padding: 0px -5px;
+    width: 7%;
+
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.box {
+    
+    display:inline-block;
+    width: 22%;
+    padding: 10px;
+}
+
+.box-text {
+    display: flex;
+    font-size: small;
+    align-items:center;
+    justify-content: space-between;
+    white-space: pre;
+    
+}
+
+.text {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px
+}
+
+.box-text * {
+    width: unset
+}
+
+.text::first-line {
+    justify-content: start;
+}
+
+.icon-img {
+    width: 25px;
+    height: 18px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.pro-tag {
+    
+    color: white;
+    background-color: rgb(175, 171, 171);
+    border-radius: 20%;
+    padding: 1px 10px 1px 5px;
+    font-size: 0.8em;
+    width: 20px;
+    height: 15px;
+    text-align: center;
+
+   
+}
+
+.hearth-icon {
+    font-size: smaller;
+    color: gray;
+    justify-content: flex-end;
+}
